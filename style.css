@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  margin: 0;
+}
+
+.wrapper {
+  /* border: 1px solid red; */
+  margin: 70px auto;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+
+/* join section */
+.join {
+  background-color: #fff;
+  padding: 5px 25px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  /* flex: 1; */
+}
+
+.join h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+.join .guarantee {
+  color: hsl(71, 73%, 54%);
+  font-weight: bold;
+}
+
+.explaination {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.8rem;
+}
+
+/* subscription section */
+.subscription {
+  background-color: hsl(179, 62%, 43%);
+  padding: 5px 25px;
+}
+
+.subscription h1 {
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.subscription .price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 0.3em;
+}
+
+.subscription .frequency,
+.access {
+  color: hsl(204, 43%, 93%);
+}
+
+.cost {
+  margin: 0;
+}
+
+.subscription .access {
+  margin: 0.6rem 0 0 0;
+}
+
+.btn {
+  width: 100%;
+  background-color: hsl(71, 73%, 54%);
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  margin: 1.2rem auto;
+  padding: 15px;
+  box-shadow: 2px 5px 5px rgb(0 0 0 / 20%);
+}
+
+/* why-us section*/
+.why-us {
+  background-color: hsl(179, 69%, 46%);
+  padding: 5px 25px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /* flex: 1; */
+}
+
+.why-us h1 {
+  color: #fff;
+}
+
+.why-us .explaination {
+  color: hsl(204, 43%, 93%);
+}
